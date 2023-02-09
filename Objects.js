@@ -37,24 +37,24 @@
 // productDetails.purchase();
 
 
-// //type 2
-// function prodDet(name,brand,price,description,purchase)
-// {
-//     this.name=name
-//     this.brand=brand
-//     this.price=price
-//     this.description=description
-//     this.purchase=purchase
-//    // console.log("product "+name+" is of brand "+brand+" and price is "+price);
-// }
+//type 2
+function prodDet(name,brand,price,description='na',purchase)
+{
+    this.name=name
+    this.brand=brand
+    this.price=price
+    this.description=description
+    this.purchase=purchase
+    console.log("product "+name+" is of brand "+brand+" and price is "+price);
+}
 
-// var prod1=new prodDet("s22",'samsung',10000,['8gbRam','256gbStorage','5000mAhBattery'],function(){ var status="The product is delivered"
-// console.log(status);})
-// var prod2=new prodDet('4a','google',8000)
-// console.log(prod1);
-// console.log(prod1.description[1]);
-// prod1.purchase();
-// console.log(prod2);
+var prod1=new prodDet("s22",'samsung',10000,['8gbRam','256gbStorage','5000mAhBattery'],function(){ var status="The product is delivered"
+console.log(status);})
+var prod2=new prodDet('4a','google',8000)
+console.log(prod1);
+console.log(prod1.description[1]);
+prod1.purchase();
+console.log(prod2);
 
 // //type 3
 // var prodDet= new Object()
@@ -93,16 +93,16 @@
 // console.log(data2.pName);
 
 
-class productDetails
-{
-	constructor(name,price)
-	{
-		this.name=name
-		this.price=price
-	}
-}
+// class productDetails
+// {
+// 	constructor(name,price)
+// 	{
+// 		this.name=name
+// 		this.price=price
+// 	}
+// }
 
-var p1=new productDetails('book',10)
-var p1=new productDetails('book',100)
-console.log(p1);
+// var p1=new productDetails('book',10)
+// var p1=new productDetails('book',100)
+// console.log(p1);
 

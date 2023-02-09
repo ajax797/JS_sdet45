@@ -51,9 +51,9 @@ function payment(cost,status,mode)
 {
     switch (status) 
     {
-        case 1:'successfull'
+        case 'successfull':
             console.log('Cost of the product is Rs.'+cost);
-            mode(cost)
+            mode(cost);
             break;
     
         default:
@@ -63,4 +63,4 @@ function payment(cost,status,mode)
     
 }
 
-payment(10000,'successfull',netBanking)
+payment(10000,'successfull',COD)
