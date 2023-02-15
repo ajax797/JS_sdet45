@@ -12,4 +12,4 @@ console.log(dat.toDateString().split(' ')[0]);
 console.log(dat.toDateString().split(' ')[1]);
 console.log(dat.toDateString().split(' ')[2]);
 console.log(dat.toDateString().split(' ')[3]);
-console.log(dat.);
+console.log(dat);

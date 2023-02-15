@@ -27,9 +27,9 @@ console.log(arr);
 
 console.log(arr.includes(1));//9
 
-function con(arr)
+function con(a)
 {
-    return arr>3
+    return a>3
 }
 console.log(arr.find(con));//10
 console.log(arr.filter(con));//11

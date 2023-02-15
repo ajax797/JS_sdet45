@@ -28,7 +28,7 @@ class USER
         console.log(stat);
     }
 
-    
+
     static logout()
     {
         console.log('static method output');
@@ -54,3 +54,4 @@ console.log('non static variable '+user1.age);
 console.log('static variable '+USER.phno);
 user1.login();
 USER.logout();
+
