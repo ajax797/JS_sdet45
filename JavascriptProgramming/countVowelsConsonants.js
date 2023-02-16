@@ -39,7 +39,7 @@ function occuranceOfChar(str)
         }
         if(count>=1)
         {
-            if(arr[i]!='a'&&arr[i]!='e'&&arr[i]!='i'&&arr[i]!='o'&&arr[i]!='u')
+            if('aeiouAEIOU'.includes(arr[i]))
             {
                 console.log(arr[i]+'---->'+count)
             }

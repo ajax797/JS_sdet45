@@ -15,7 +15,7 @@ for (const key in str)
     }
     if(count>=1)
     {
-        if(str[key]=='a'||str[key]=='e'||str[key]=='i'||str[key]=='o'||str[key]=='u')
+        if('aeiouAEIOU'.includes(str[key]))
         {
              console.log(str[key]+"---->"+count)
         }
